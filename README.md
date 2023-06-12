@@ -1,7 +1,7 @@
 **Userguide on Parent Child Relationship class**
 
 
-**Class name and Init: **
+**Class name and Init:**
 Class name is Parent_relation and you can init this following way 
 
 
@@ -27,7 +27,7 @@ Class name is Parent_relation and you can init this following way
 
 
 
-**List object with parent ID: **
+**List object with parent ID:**
 [0] => stdClass Object
         (
             [id] => 9
@@ -41,7 +41,7 @@ Class name is Parent_relation and you can init this following way
 
 
 
-**Call Method: **
+**Call Method:**
 You can call following one method for all with type in option params 
 
 get($objects, $options = [])
