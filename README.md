@@ -28,16 +28,28 @@ Class name is Parent_relation and you can init this following way
 
 
 **List object with parent ID:**
+Array or object as like following with index parent_id 
 [0] => stdClass Object
+        (
+            [id] => 9
+            [parent_id] => 0
+            [title] =>   Assets
+            [description] => An asset is generally any useful thing or something that holds value.
+        )
+[1] => stdClass Object
         (
             [id] => 9
             [parent_id] => 1
             [title] => Current Assets
-            [description] => Current Assets
-            [level] => 1
-            [parent] => > Assets
+            [description] => Current assets include cash and cash equivalents, inventory, and accounts receivable other assets that can convert into cash in one year.
         )
-
+[1] => stdClass Object
+        (
+            [id] => 9
+            [parent_id] => 1
+            [title] => Fixed Assets  
+            [description] =>  Fixed assets refer to long-term tangible assets that are used in the operations of a business. 
+        )
 
 
 
