@@ -29,6 +29,8 @@ Class name is Parent_relation and you can init this following way
 
 **List object with parent ID:**
 Array or object as like following with index parent_id 
+
+```
 [0] => stdClass Object
         (
             [id] => 9
@@ -50,13 +52,14 @@ Array or object as like following with index parent_id
             [title] => Fixed Assets  
             [description] =>  Fixed assets refer to long-term tangible assets that are used in the operations of a business. 
         )
+```
 
 
 
 **Call Method:**
 You can call following one method for all with type in option params 
 
-get($objects, $options = [])
+```get($objects, $options = [])```
 
 By $options,  you can set following params: 
 
@@ -73,10 +76,12 @@ dropdown - provide  objects with parent child order which is fitted for dropdown
 $options will contain other options such as $key $value, $is_long_name(if true, it will provide a name with all parent) etc
 
 Suppose your list is $accounting_charter and you want tree type object, then  you can call following way
-$parent_relation->get($accounting_charter,  [‘type’=>’tree’])
+
+```$parent_relation->get($accounting_charter,  [‘type’=>’tree’])```
 
 Or you can also call following way 
-$parent_relation->get_tree($accounting_charter)
+
+```$parent_relation->get_tree($accounting_charter)```
 
  
 
